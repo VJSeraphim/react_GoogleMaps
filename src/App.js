@@ -2,9 +2,9 @@ import React from 'react'
 import { CssBaseline, Grid } from '@material-ui/core' 
 
 import Header from './components/Header/Header'
-import Header from './components/Map/Map'
-import Header from './components/Details/Details'
-import Header from './components/List/List'
+import Map from './components/Map/Map'
+import Details from './components/Details/Details'
+import List from './components/List/List'
 
 const App = () => {
   return (

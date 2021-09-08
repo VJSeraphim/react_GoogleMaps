@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Details = () => {
+const Details = ({ place }) => {
     return (
         <div>
-            Details!
+            {place.name}
         </div>
     )
 }

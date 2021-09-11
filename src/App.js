@@ -15,7 +15,7 @@ const App = () => {
   const [bounds, setBounds] = useState(null)
 
   useEffect(() => {
-    getPlacesData(bounds.sw, bounds.ne)
+    getPlacesData(coordinates, bounds)
     .then((data) => {
       setPlaces(data)
     })

@@ -6,14 +6,14 @@ import Rating from '@material-ui/lab'
 
 import useStyles from './styles'
 
-const Map = ({ setCoordinates, setBounds, coordinates}) => {
+const Map = ({ setCoordinates, setBounds, coordinates }) => {
     const classes = useStyles()
     const isMobile = useMediaQuery('(min-width:600px)')
 
     return (
         <div className={classes.mapContainer}>
             <GoogleMapReact
-                bootstrapURLKeys = {{key: 'AIzaSyD4JQIOGBd2yMmtaPWNAN0G1ICwCQYIc3g'}}
+                bootstrapURLKeys={{key: 'AIzaSyCuO-xJQugoxZVkcco5ZJ36SB4p4R7JEc4'}}
                 defaultCenter={coordinates}
                 center={coordinates}
                 defaultZoom={14}
